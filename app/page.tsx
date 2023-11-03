@@ -1,5 +1,6 @@
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
+import MatchJobs from "@/components/Home/MatchJobs";
 import ProcessFlow from "@/components/Home/ProcessFlow/ProcessFlow";
 import NextImage from "@/components/Shared/Image/NextImage";
 import Navbar from "@/components/Shared/Navigations/Navbar";
@@ -8,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full h-full">
+    <main className="w-full h-full bg-white-main">
       <Notification />
       <section className="w-full md:h-[calc(100dvh-64px)] bg-brand-main bg-[url('/Assets/Hero/HeroBg.png')] bg-contain bg-center bg-no-repeat">
         <Navbar />
@@ -16,6 +17,7 @@ export default function Home() {
       </section>
       <ProcessFlow />
       <HowItWorks />
+      <MatchJobs />
     </main>
   );
 }
