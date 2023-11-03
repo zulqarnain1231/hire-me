@@ -1,4 +1,5 @@
 import Hero from "@/components/Home/Hero";
+import HowItWorks from "@/components/Home/HowItWorks";
 import ProcessFlow from "@/components/Home/ProcessFlow/ProcessFlow";
 import NextImage from "@/components/Shared/Image/NextImage";
 import Navbar from "@/components/Shared/Navigations/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
       </section>
       <ProcessFlow />
+      <HowItWorks />
     </main>
   );
 }
