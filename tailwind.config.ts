@@ -15,6 +15,9 @@ const config: Config = {
         black: {
           main: "#000",
         },
+        gray: {
+          main: "#40454F",
+        },
         white: {
           main: "#fff",
         },

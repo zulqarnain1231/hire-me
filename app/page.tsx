@@ -1,4 +1,5 @@
 import Hero from "@/components/Home/Hero";
+import ProcessFlow from "@/components/Home/ProcessFlow/ProcessFlow";
 import NextImage from "@/components/Shared/Image/NextImage";
 import Navbar from "@/components/Shared/Navigations/Navbar";
 import Notification from "@/components/Shared/Navigations/Notification";
@@ -12,6 +13,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </section>
+      <ProcessFlow />
     </main>
   );
 }
