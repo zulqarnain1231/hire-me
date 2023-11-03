@@ -25,7 +25,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <ComponentWrapper style="bg-transparent h-[80px]">
+    <ComponentWrapper style="bg-transparent h-[80px] z-50">
       <div className="w-full h-full flex items-center justify-between">
         <Link href={"/"} className="relative h-[20px] w-[95px]">
           <Image
