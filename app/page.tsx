@@ -8,6 +8,7 @@ import Partners from "@/components/Home/Partners";
 import ProcessFlow from "@/components/Home/ProcessFlow/ProcessFlow";
 import Reviews from "@/components/Home/Reviews/Reviews";
 import NextImage from "@/components/Shared/Image/NextImage";
+import Footer from "@/components/Shared/Navigations/Footer";
 import Navbar from "@/components/Shared/Navigations/Navbar";
 import Notification from "@/components/Shared/Navigations/Notification";
 import Image from "next/image";
@@ -28,6 +29,7 @@ export default function Home() {
       <Reviews />
       <Partners />
       <FreeTrial />
+      <Footer />
     </main>
   );
 }
