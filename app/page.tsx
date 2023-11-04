@@ -1,3 +1,4 @@
+import AppScreenShot from "@/components/Home/AppScreenShot";
 import Features from "@/components/Home/Features";
 import FreeTrial from "@/components/Home/FreeTrial";
 import Hero from "@/components/Home/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </section>
+      <AppScreenShot />
       <ProcessFlow />
       <HowItWorks />
       <MatchJobs />

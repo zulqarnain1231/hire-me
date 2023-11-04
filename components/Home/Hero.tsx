@@ -4,7 +4,7 @@ import ComponentWrapper from "../Shared/Wrappers/ComponentWrapper";
 const Hero = () => {
   return (
     <ComponentWrapper style="md:h-[calc(100dvh-[144px])]">
-      <div className="w-full h-full flex flex-col items-center justify-center gap-10 lg:mt-20 mt-8">
+      <div className="w-full h-full flex flex-col items-center justify-center gap-10 lg:mt-20 mt-8 pb-8 ">
         <h1 className="text-white-main font-bold text-center sm:text-7xl text-5xl xl:w-[70%]">
           Focus on your career, not your accounting.
         </h1>
