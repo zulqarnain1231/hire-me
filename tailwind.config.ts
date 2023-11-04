@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         brand: {
           main: "#145AFF",
+          secondary: "#47C1FE",
         },
         black: {
           main: "#000",

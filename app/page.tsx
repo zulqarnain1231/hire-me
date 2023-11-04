@@ -1,3 +1,4 @@
+import Features from "@/components/Home/Features";
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
 import MatchJobs from "@/components/Home/MatchJobs";
@@ -18,6 +19,7 @@ export default function Home() {
       <ProcessFlow />
       <HowItWorks />
       <MatchJobs />
+      <Features />
     </main>
   );
 }
