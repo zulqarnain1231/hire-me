@@ -83,9 +83,9 @@ const Features = () => {
           </aside>
         </div>
 
-        <div className="w-full grid lg:grid-cols-2 xl:gap-10 gap-8 lg:pl-16 lg:pr-0 md:pr-10 my-12">
-          <aside className="w-full flex flex-col items-start justify-start xl:gap-8 gap-5">
-            <h2 className="text-black-main sm:text-6xl text-[44px] font-bold ">
+        <div className="w-full flex flex-col-reverse items-center justify-start lg:grid lg:grid-cols-2 xl:gap-10 gap-8 lg:pl-16 lg:pr-0 md:px-10 my-12">
+          <aside className="w-full flex flex-col items-center lg:items-start justify-start xl:gap-12 gap-5">
+            <h2 className="text-black-main lg:text-left text-center sm:text-6xl text-[44px] font-bold ">
               Hire.me is built for recruiters
             </h2>
             <div className="w-full flex items-start justify-start gap-3">
