@@ -6,6 +6,7 @@ import HowItWorks from "@/components/Home/HowItWorks";
 import MatchJobs from "@/components/Home/MatchJobs";
 import Partners from "@/components/Home/Partners";
 import ProcessFlow from "@/components/Home/ProcessFlow/ProcessFlow";
+import Reviews from "@/components/Home/Reviews/Reviews";
 import NextImage from "@/components/Shared/Image/NextImage";
 import Navbar from "@/components/Shared/Navigations/Navbar";
 import Notification from "@/components/Shared/Navigations/Notification";
@@ -24,6 +25,7 @@ export default function Home() {
       <HowItWorks />
       <MatchJobs />
       <Features />
+      <Reviews />
       <Partners />
       <FreeTrial />
     </main>

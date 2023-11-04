@@ -24,6 +24,9 @@ const config: Config = {
           off: "#F9F9F9",
         },
       },
+      boxShadow: {
+        review: "0px 0px 40px 0px rgba(22, 22, 22, 0.12)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
