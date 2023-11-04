@@ -1,4 +1,5 @@
 import Features from "@/components/Home/Features";
+import FreeTrial from "@/components/Home/FreeTrial";
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
 import MatchJobs from "@/components/Home/MatchJobs";
@@ -22,6 +23,7 @@ export default function Home() {
       <MatchJobs />
       <Features />
       <Partners />
+      <FreeTrial />
     </main>
   );
 }
