@@ -12,7 +12,7 @@ function CustomNextArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <button
-      className="absolute -top-[216px] xl:right-[8%] lg:right-[10%] sm:right-[5%]  right-[2%] h-[56px] w-[56px] flex items-center justify-center z-20 hover:bg-brand-main rounded-full group bg-[#DDE7FF] hover:duration-200"
+      className="absolute lg:-top-[216px] md:-top-40 -top-[68px] xl:right-[8%] lg:right-[10%] sm:right-[5%]  right-[2%] sm:h-[56px] h-[48px] sm:w-[56px] w-[48px] flex items-center justify-center z-20 hover:bg-brand-main rounded-full group bg-[#DDE7FF] hover:duration-200"
       onClick={onClick}
     >
       <BsArrowRight className="text-2xl text-brand-main group-hover:text-white-main" />
@@ -24,7 +24,7 @@ function CustomPrevArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <button
-      className="absolute -top-[216px] xl:right-[13%] lg:right-[17%] right-[20%]  h-[56px] w-[56px] flex items-center justify-center z-20 hover:bg-brand-main rounded-full group bg-[#DDE7FF] hover:duration-200"
+      className="absolute lg:-top-[216px] md:-top-40 -top-[68px] xl:right-[13%] lg:right-[17%] right-[20%] sm:right-[15%]  sm:h-[56px] h-[48px] sm:w-[56px] w-[48px] flex items-center justify-center z-20 hover:bg-brand-main rounded-full group bg-[#DDE7FF] hover:duration-200"
       onClick={onClick}
     >
       <BsArrowLeft className="text-2xl text-brand-main group-hover:text-white-main" />
