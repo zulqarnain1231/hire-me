@@ -108,7 +108,7 @@ const Reviews = () => {
       <div className="w-full flex items-center justify-start lg:pl-16 lg:pr-0 md:px-10 px-5">
         <h2 className="lg:w-[70%] sm:text-left text-center text-black-main font-bold sm:text-7xl text-5xl sm:leading-[83px]">
           4,000+ companies trusted{" "}
-          <span className="bg-[url('/Assets/Process/Underline.png')] bg-contain bg-bottom bg-no-repeat">
+          <span className="bg-[url('/Assets/Process/UnderLine.png')] bg-contain bg-bottom bg-no-repeat">
             Hire.me
           </span>
         </h2>
