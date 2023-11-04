@@ -28,7 +28,10 @@ const ProcessFlow = () => {
     <ComponentWrapper style="bg-white-main lg:py-20 py-12">
       <div className="w-full flex flex-col items-center justify-start lg:gap-16 gap-12">
         <h2 className="text-black-main text-center sm:text-6xl text-[44px] font-bold">
-          Process flow for our Hire.me
+          Process flow for our{" "}
+          <span className="bg-[url('/Assets/Process/Underline.png')] bg-contain bg-bottom bg-no-repeat">
+            Hire.me
+          </span>
         </h2>
         <p className="text-gray-main text-center text-lg sm:text-xl font-medium lg:w-[60%]">
           In addition to personnel planning and time registration, Shiftbase
