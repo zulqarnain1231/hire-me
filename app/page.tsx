@@ -1,5 +1,5 @@
 import AppScreenShot from "@/components/Home/AppScreenShot";
-import Features from "@/components/Home/Features";
+import Features from "@/components/Home/Features/Features";
 import FreeTrial from "@/components/Home/FreeTrial";
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
