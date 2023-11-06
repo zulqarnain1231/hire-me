@@ -26,6 +26,7 @@ const config: Config = {
       },
       boxShadow: {
         review: "0px 0px 40px 0px rgba(22, 22, 22, 0.12)",
+        main: "(0px 0px 40px rgba(20, 90, 255, 0.40))",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
