@@ -1,7 +1,6 @@
 import React from "react";
 import ComponentWrapper from "../Shared/Wrappers/ComponentWrapper";
 import NextImage from "../Shared/Image/NextImage";
-import { Fade, Slide } from "react-awesome-reveal";
 const AppScreenShot = () => {
   return (
     <ComponentWrapper style="bg-white-off lg:py-20 py-12">
