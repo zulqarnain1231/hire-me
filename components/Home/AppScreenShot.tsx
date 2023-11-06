@@ -5,7 +5,7 @@ import NextImage from "../Shared/Image/NextImage";
 const AppScreenShot = () => {
   return (
     <ComponentWrapper style="bg-white-off lg:py-20 py-12">
-      <div className="w-full flex items-center justify-center md:-mt-36 z-10">
+      <div className="w-full flex items-center justify-center xl:-mt-44 3xl:-mt-72 lg:-mt-36 z-10">
         <NextImage
           imageStyle="sm:object-contain object-fill"
           imageSrc="/Assets/Hero/OverLap.png"
