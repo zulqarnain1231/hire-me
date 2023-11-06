@@ -53,7 +53,7 @@ const Features = () => {
           <aside className="w-full h-full">
             <NextImage
               imageSrc="/Assets/Features/Feature2.png"
-              imageStyle="lg:object-fill object-contain"
+              imageStyle="lg:object-cover object-contain"
               containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
             />
           </aside>

@@ -55,25 +55,25 @@ const FeaturesTab = () => {
         {isActive === "Deal Tracking" ? (
           <NextImage
             imageSrc="/Assets/Features/Feature1.png"
-            imageStyle="lg:object-fill object-contain"
+            imageStyle="lg:object-cover object-contain"
             containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
           />
         ) : isActive === "Pipeline Management" ? (
           <NextImage
             imageSrc="/Assets/Features/Feature2.png"
-            imageStyle="lg:object-fill object-contain"
+            imageStyle="lg:object-cover object-contain"
             containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
           />
         ) : isActive === "Interview Scheduling" ? (
           <NextImage
             imageSrc="/Assets/Features/Feature1.png"
-            imageStyle="lg:object-fill object-contain"
+            imageStyle="lg:object-cover object-contain"
             containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
           />
         ) : (
           <NextImage
             imageSrc="/Assets/Features/Feature2.png"
-            imageStyle="lg:object-fill object-contain"
+            imageStyle="lg:object-cover object-contain"
             containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
           />
         )}
@@ -83,7 +83,11 @@ const FeaturesTab = () => {
           <div
             key={index}
             onClick={() => setActiveFeature(item.name)}
-            className="w-full flex flex-col sm:flex-row items-center justify-start gap-5 cursor-pointer"
+            className={`w-full flex flex-col sm:flex-row items-center justify-start gap-5 cursor-pointer p-3 rounded-lg hover:duration-200 ${
+              isActive === item.name
+                ? "bg-slate-200/30"
+                : "hover:bg-slate-200/30"
+            }`}
           >
             <span
               className={`sm:h-[106px] h-[70px] sm:w-[106px] w-[70px] flex-shrink-0 flex items-center justify-center ${item.background} rounded-full`}
@@ -91,7 +95,9 @@ const FeaturesTab = () => {
               {item.icon}
             </span>
             <div className="flex flex-col sm:items-start items-center justify-start gap-3">
-              <h2 className="text-black-main text-[28px] sm:text-[32px] text-center sm:text-left font-medium">
+              <h2
+                className={`text-black-main text-[28px] sm:text-[32px] text-center sm:text-left font-medium`}
+              >
                 {item.name}
               </h2>
               <p className="text-gray-main text-base sm:text-lg text-center sm:text-left font-medium sm:w-[90%]">

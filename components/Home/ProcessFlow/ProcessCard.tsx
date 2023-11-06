@@ -1,6 +1,7 @@
+"use client";
 import NextImage from "@/components/Shared/Image/NextImage";
 import React from "react";
-
+import { Fade } from "react-awesome-reveal";
 type Props = {
   title: string;
   image: string;
