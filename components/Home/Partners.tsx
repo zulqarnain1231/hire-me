@@ -4,7 +4,7 @@ import NextImage from "../Shared/Image/NextImage";
 
 const Partners = () => {
   return (
-    <ComponentWrapper style="relative lg:py-20 py-12 bg-brand-main overflow-hidden">
+    <ComponentWrapper style="relative lg:py-28 py-12 bg-brand-main overflow-hidden">
       <div className="w-full flex flex-col items-center justify-start sm:gap-16 gap-10">
         <h2 className="text-white-main text-center text-2xl sm:text-3xl font-medium">
           Partner by amazing companies worldwide

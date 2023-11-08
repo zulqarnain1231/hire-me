@@ -25,7 +25,7 @@ const ProcessFlow = () => {
     },
   ];
   return (
-    <ComponentWrapper style="bg-white-main lg:py-20 py-12">
+    <ComponentWrapper style="bg-white-main lg:py-28 py-12">
       <div className="w-full flex flex-col items-center justify-start lg:gap-16 gap-12">
         <h2 className="text-black-main text-center sm:text-6xl text-[44px] font-bold">
           Process flow for our{" "}

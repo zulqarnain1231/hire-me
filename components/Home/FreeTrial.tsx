@@ -4,7 +4,7 @@ import NextImage from "../Shared/Image/NextImage";
 
 const FreeTrial = () => {
   return (
-    <ComponentWrapper style="lg:py-20 py-12 bg-black-main">
+    <ComponentWrapper style="lg:py-28 py-12 bg-black-main">
       <div className="w-full grid lg:grid-cols-[3fr,1fr] gap-6">
         <aside className="w-full flex flex-col lg:items-start items-center justify-start gap-8">
           <h2 className="text-white-main lg:text-left text-center sm:text-6xl sm:leading-[90px] text-[44px] font-bold lg:w-[90%]">

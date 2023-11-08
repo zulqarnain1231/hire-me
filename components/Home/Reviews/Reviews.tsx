@@ -104,7 +104,7 @@ const Reviews = () => {
     ],
   };
   return (
-    <section className="w-full flex flex-col items-center justify-start gap-16 lg:py-20 py-12 bg-white-main overflow-hidden">
+    <section className="w-full flex flex-col items-center justify-start gap-16 lg:py-28 py-12 bg-white-main overflow-hidden">
       <div className="w-full flex items-center justify-start lg:pl-16 lg:pr-0 md:px-10 px-5">
         <h2 className="lg:w-[70%] sm:text-left text-center text-black-main font-bold sm:text-7xl text-5xl sm:leading-[83px]">
           4,000+ companies trusted{" "}

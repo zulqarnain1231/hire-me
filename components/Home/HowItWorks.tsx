@@ -4,7 +4,7 @@ import NextImage from "../Shared/Image/NextImage";
 
 const HowItWorks = () => {
   return (
-    <ComponentWrapper style="lg:py-20 py-12 bg-black-main">
+    <ComponentWrapper style="lg:py-28 py-12 bg-black-main">
       <div className="w-full flex flex-col items-center justify-start gap-12">
         <h2 className="text-white-main text-center sm:text-6xl text-[44px] font-bold lg:w-[70%]">
           How does the{" "}

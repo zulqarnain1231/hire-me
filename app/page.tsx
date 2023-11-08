@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="w-full h-full bg-white-main overflow-hidden">
       <Notification />
-      <section className="w-full md:h-[calc(100dvh-64px)] bg-brand-main bg-[url('/Assets/Hero/HeroBg.png')] bg-contain bg-center bg-no-repeat">
+      <section className="w-full lg:h-[calc(100dvh-64px)] bg-brand-main bg-[url('/Assets/Hero/HeroBg.png')] bg-contain bg-center bg-no-repeat">
         <Navbar />
         <Hero />
       </section>

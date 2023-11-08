@@ -32,7 +32,7 @@ const MatchJobs = () => {
     },
   ];
   return (
-    <ComponentWrapper style="lg:py-20 py-12 bg-white-main">
+    <ComponentWrapper style="lg:py-28 py-12 bg-white-main">
       <div className="w-full flex flex-col items-center justify-start gap-12">
         <h2 className="text-black-main text-center sm:text-6xl text-[44px] font-bold lg:w-[70%]">
           Match more candidates and jobs{" "}

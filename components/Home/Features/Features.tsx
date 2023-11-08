@@ -5,7 +5,7 @@ import FeaturesTab from "./FeaturesTab";
 
 const Features = () => {
   return (
-    <section className="w-full px-5 md:px-0 lg:py-20 py-12 bg-white-main">
+    <section className="w-full px-5 md:px-0 lg:py-28 py-12 bg-white-main">
       <div className="w-full flex flex-col items-center justify-start gap-16">
         <h2 className="text-black-main text-center sm:text-6xl text-[44px] font-bold lg:w-[70%]">
           <span className="bg-[url('/Assets/Features/Circle.png')] bg-center bg-no-repeat bg-contain">
