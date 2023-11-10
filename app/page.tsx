@@ -1,7 +1,8 @@
 import AppScreenShot from "@/components/Home/AppScreenShot";
 import Features from "@/components/Home/Features/Features";
 import FreeTrial from "@/components/Home/FreeTrial";
-import Hero from "@/components/Home/Hero";
+import Hero from "@/components/Home/Hero/Hero";
+import OrbitAnimation from "@/components/Home/Hero/OrbitAnimation";
 import HowItWorks from "@/components/Home/HowItWorks";
 import MatchJobs from "@/components/Home/MatchJobs/MatchJobs";
 import Partners from "@/components/Home/Partners";
@@ -15,7 +16,8 @@ export default function Home() {
   return (
     <main className="w-full h-full bg-white-main overflow-hidden">
       <Notification />
-      <section className="w-full lg:h-[calc(100dvh-64px)] bg-brand-main bg-[url('/Assets/Hero/HeroBg.png')] bg-contain bg-center bg-no-repeat">
+      <section className="w-full lg:h-[calc(100dvh-64px)] bg-brand-main relative">
+        <OrbitAnimation />
         <Navbar />
         <Hero />
       </section>
