@@ -22,7 +22,7 @@ const FreeTrial = () => {
               placeholder="Enter your email address"
               className="sm:w-[400px] w-full bg-white-main py-5 px-8 focus:outline-none rounded-xl text-base sm:text-lg font-medium text-gray-main placeholder:text-gray-main"
             />
-            <button className="px-8 py-5 text-white-main text-base sm:text-lg font-medium rounded-xl bg-brand-main">
+            <button className="px-8 py-5 text-white-main text-base sm:text-lg font-medium rounded-xl bg-brand-main hover:bg-brand-main/90 hover:duration-200">
               Start free trial
             </button>
           </div>

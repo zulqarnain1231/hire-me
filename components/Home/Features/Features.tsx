@@ -46,7 +46,7 @@ const Features = () => {
                 off with pre-screening assignments.
               </p>
             </div>
-            <button className="px-8 py-5 bg-brand-main rounded-xl flex items-center justify-center text-white-main sm:text-lg text-base font-medium">
+            <button className="px-8 py-5 bg-brand-main rounded-xl flex items-center justify-center text-white-main sm:text-lg text-base font-medium hover:bg-brand-main/90 hover:duration-200">
               More Features
             </button>
           </aside>

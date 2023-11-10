@@ -18,7 +18,7 @@ const Hero = () => {
             placeholder="Enter your email address"
             className="bg-[#3773FF] px-8 py-5 z-50 sm:w-[400px] w-full focus:outline-none text-white-main text-base sm:text-lg font-medium placeholder:text-white-main rounded-xl"
           />
-          <button className="bg-white-main z-50 px-8 py-5 sm:w-auto w-full rounded-xl text-base sm:text-lg font-medium text-brand-main">
+          <button className="bg-white-main z-50 px-8 py-5 sm:w-auto w-full rounded-xl text-base sm:text-lg font-medium text-brand-main hover:bg-white-main/90 hover:duration-200">
             Get Started
           </button>
         </div>

@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <>
       <ComponentWrapper style="bg-transparent h-[80px] z-50">
-        <div className="w-full h-full flex items-center justify-between">
+        <div className="w-full h-full flex items-center justify-between z-50">
           <Link href={"/"} className="relative h-[20px] w-[95px]">
             <Image
               className="w-full h-full object-fill"
@@ -44,7 +44,7 @@ const Navbar = () => {
               fill
             />
           </Link>
-          <div className="h-full md:flex hidden items-center justify-center gap-6">
+          <div className="h-full md:flex hidden items-center justify-center gap-6 z-50">
             {menu.map((item: any, index: number) => (
               <Link
                 key={index}
@@ -58,7 +58,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <button className="md:inline-block hidden py-3 px-6 bg-transparent rounded-[30px] border-[1.5px] border-white-main text-lg text-white-main font-medium">
+          <button className="md:inline-block hidden py-3 px-6 bg-transparent rounded-[30px] border-[1.5px] border-white-main text-lg text-white-main font-medium z-50 hover:bg-white-main/10 hover:duration-200 ease-in-out">
             Start free trial
           </button>
           <button className="md:hidden flex" onClick={toggleDrawer}>
