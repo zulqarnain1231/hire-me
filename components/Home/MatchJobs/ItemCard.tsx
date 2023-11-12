@@ -1,5 +1,6 @@
-import NextImage from "@/components/Shared/Image/NextImage";
 import React from "react";
+import NextImage from "@/components/Shared/Image/NextImage";
+import * as Icons from "@/constants/Svgs/Icons";
 
 type Props = {
   isTop?: boolean;
@@ -27,10 +28,24 @@ const ItemCard: React.FC<Props> = ({
           {title}
         </p>
       )}
+      {!isTop && (
+        <Icons.TopCurvedline
+          fill="none"
+          stroke=""
+          className="lg:-mb-24 xl:-mb-28 md:-mb-24 sm:-mb-[76px] -mb-[70px] z-10 xl:w-[240px] lg:w-[180px] md:w-[130px] sm:w-[110px] w-[70px]"
+        />
+      )}
       <NextImage
         imageSrc={logo}
-        containerStyle="xl:w-[240px] lg:w-[180px] md:w-[130px] sm:w-[110px] w-[70px] h-[70px] sm:h-[90px] xl:h-[216px] lg:h-[160px] md:h-[120px]"
+        containerStyle="xl:w-[240px] lg:w-[180px] md:w-[130px] sm:w-[110px] w-[70px] h-[70px] sm:h-[90px] xl:h-[190px] lg:h-[160px] md:h-[115px]"
       />
+      {isTop && (
+        <Icons.BottomCurvedline
+          fill="none"
+          stroke=""
+          className="lg:-mt-24 xl:-mt-28 md:-mt-24 sm:-mt-[76px] -mt-[70px] z-10 xl:w-[240px] lg:w-[180px] md:w-[130px] sm:w-[110px] w-[70px]"
+        />
+      )}
       {!isTop && (
         <p className="text-black-main sm:text-sm text-xs md:text-base text-center lg:text-xl xl:text-2xl font-medium">
           {title}
