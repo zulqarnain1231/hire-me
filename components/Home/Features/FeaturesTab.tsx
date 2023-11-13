@@ -56,25 +56,25 @@ const FeaturesTab = () => {
           <NextImage
             imageSrc="/Assets/Features/Feature1.png"
             imageStyle="lg:object-cover object-contain"
-            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
+            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px] sm:inline-block hidden"
           />
         ) : isActive === "Pipeline Management" ? (
           <NextImage
             imageSrc="/Assets/Features/Feature2.png"
             imageStyle="lg:object-cover object-contain"
-            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
+            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px] sm:inline-block hidden"
           />
         ) : isActive === "Interview Scheduling" ? (
           <NextImage
             imageSrc="/Assets/Features/Feature1.png"
             imageStyle="lg:object-cover object-contain"
-            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
+            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px] sm:inline-block hidden"
           />
         ) : (
           <NextImage
             imageSrc="/Assets/Features/Feature2.png"
             imageStyle="lg:object-cover object-contain"
-            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px]"
+            containerStyle="w-full lg:h-full h-[300px] sm:h-[400px] sm:inline-block hidden"
           />
         )}
       </aside>
@@ -85,8 +85,8 @@ const FeaturesTab = () => {
             onClick={() => setActiveFeature(item.name)}
             className={`w-full flex flex-col sm:flex-row items-center justify-start gap-5 cursor-pointer p-3 rounded-lg hover:duration-200 ${
               isActive === item.name
-                ? "bg-slate-200/30"
-                : "hover:bg-slate-200/30"
+                ? "sm:bg-slate-200/30"
+                : "sm:hover:bg-slate-200/30"
             }`}
           >
             <span
@@ -100,7 +100,7 @@ const FeaturesTab = () => {
               >
                 {item.name}
               </h2>
-              <p className="text-gray-main text-base sm:text-lg text-center sm:text-left font-medium sm:w-[90%]">
+              <p className="text-gray-main text-base sm:inline-block hidden sm:text-lg text-center sm:text-left font-medium sm:w-[90%]">
                 {item.detail}
               </p>
             </div>
